@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#A7C2F3",
+    "navigationBarTitleText": "简易计算器",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "拼单分邮PART"
+      },
+      {
+      "pagePath": "pages/index/index",
+      "text": "计算器PART"
+    }
+    
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

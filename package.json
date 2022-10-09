@@ -1,15 +1,15 @@
 {
-  "name": "chou",
+  "name": "miniprogram-ts-less-quickstart",
   "version": "1.0.0",
   "description": "",
-  "main": ".eslintrc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "",
   "dependencies": {
-    "@vant/weapp": "^1.10.5"
+  },
+  "devDependencies": {
+    "miniprogram-api-typings": "^2.8.3-1"
   }
 }

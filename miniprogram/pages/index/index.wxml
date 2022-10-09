@@ -1,0 +1,35 @@
+<!--index.wxml-->
+
+<view class='screen'>
+{{screenData}}
+</view>
+
+
+<view class='calc'>
+
+  <view bindtap="clickCalc" id="{{delete}}" class="item grey">退</view>
+  <view bindtap="clickCalc" id="{{C}}" class="item grey">C</view>
+  <view bindtap="clickCalc" id="{{sign}}" class="item grey">+/-</view>
+  <view bindtap="clickCalc" id="{{ida}}" class="item orange">+</view>
+
+  <view bindtap="clickCalc" id="{{id7}}" class="item black">7</view>
+  <view bindtap="clickCalc" id="{{id8}}" class="item black">8</view>
+  <view bindtap="clickCalc" id="{{id9}}" class="item black">9</view>
+  <view bindtap="clickCalc" id="{{idb}}" class="item orange">-</view>
+
+  <view bindtap="clickCalc" id="{{id4}}" class="item black">4</view>
+  <view bindtap="clickCalc" id="{{id5}}" class="item black">5</view>
+  <view bindtap="clickCalc" id="{{id6}}" class="item black">6</view>
+  <view bindtap="clickCalc" id="{{idc}}" class="item orange">×</view>
+
+  <view bindtap="clickCalc" id="{{id1}}" class="item black">1</view>
+  <view bindtap="clickCalc" id="{{id2}}" class="item black">2</view>
+  <view bindtap="clickCalc" id="{{id3}}" class="item black">3</view>
+  <view bindtap="clickCalc" id="{{idd}}" class="item orange">÷</view>
+
+  <view bindtap="clickCalc" id="{{id0}}" class="item black">0</view>
+  <view bindtap="clickCalc" id="{{idg}}" class="item black">.</view>
+  <view bindtap="clickCalc" id="{{idf}}" class="item black">！</view>
+  <view bindtap="clickCalc" id="{{ide}}" class="item orange">=</view>
+
+</view>
