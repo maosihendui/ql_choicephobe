@@ -1,0 +1,22 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/calc/calc"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#A7C2F3",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "选择恐惧症PART"
+    },
+    {
+      "pagePath": "pages/calc/calc",
+      "text": "计算器PART"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

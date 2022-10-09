@@ -1,0 +1,35 @@
+/**index.wxss**/
+.screen{
+  height: 190rpx;
+  margin: auto;
+  line-height: 190rpx;
+  text-align: right;
+  width: 90%;
+  font-size: 80rpx;
+}
+.calc{
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item{
+  width: 170rpx;
+  height: 190rpx;
+  line-height: 180rpx;
+  margin-bottom: 15rpx;
+  background: rgb(167, 194, 243);
+  text-align: center;
+  border-radius: 100rpx;
+  color:white;
+  font-size: 75rpx;
+}
+.black{
+  background: black;
+}
+.grey{
+  background:grey;
+}
+.orange{
+  background:orange;
+}
